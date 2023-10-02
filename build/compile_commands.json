@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/ssd/dev/PointCloud/build",
+  "command": "/usr/bin/clang++-10 -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -g -o CMakeFiles/passthrough.dir/src/passthrough.cpp.o -c /ssd/dev/PointCloud/src/passthrough.cpp",
+  "file": "/ssd/dev/PointCloud/src/passthrough.cpp",
+  "output": "CMakeFiles/passthrough.dir/src/passthrough.cpp.o"
+},
+{
+  "directory": "/ssd/dev/PointCloud/build",
+  "command": "/usr/bin/clang++-10 -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -g -o CMakeFiles/loadPointCloud.dir/src/loadPointCloud.cpp.o -c /ssd/dev/PointCloud/src/loadPointCloud.cpp",
+  "file": "/ssd/dev/PointCloud/src/loadPointCloud.cpp",
+  "output": "CMakeFiles/loadPointCloud.dir/src/loadPointCloud.cpp.o"
+},
+{
+  "directory": "/ssd/dev/PointCloud/build",
+  "command": "/usr/bin/clang++-10 -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2 -g -o CMakeFiles/writePCD.dir/src/writePCD.cpp.o -c /ssd/dev/PointCloud/src/writePCD.cpp",
+  "file": "/ssd/dev/PointCloud/src/writePCD.cpp",
+  "output": "CMakeFiles/writePCD.dir/src/writePCD.cpp.o"
+}
+]
