@@ -155,6 +155,56 @@ writePCD/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/writePCD.dir/build.make CMakeFiles/writePCD.dir/build
 .PHONY : writePCD/fast
 
+#=============================================================================
+# Target rules for targets named filter
+
+# Build rule for target.
+filter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 filter
+.PHONY : filter
+
+# fast build rule for target.
+filter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/build
+.PHONY : filter/fast
+
+#=============================================================================
+# Target rules for targets named filterPointCloud
+
+# Build rule for target.
+filterPointCloud: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 filterPointCloud
+.PHONY : filterPointCloud
+
+# fast build rule for target.
+filterPointCloud/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filterPointCloud.dir/build.make CMakeFiles/filterPointCloud.dir/build
+.PHONY : filterPointCloud/fast
+
+src/filterPointCloud.o: src/filterPointCloud.cpp.o
+.PHONY : src/filterPointCloud.o
+
+# target to build an object file
+src/filterPointCloud.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filterPointCloud.dir/build.make CMakeFiles/filterPointCloud.dir/src/filterPointCloud.cpp.o
+.PHONY : src/filterPointCloud.cpp.o
+
+src/filterPointCloud.i: src/filterPointCloud.cpp.i
+.PHONY : src/filterPointCloud.i
+
+# target to preprocess a source file
+src/filterPointCloud.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filterPointCloud.dir/build.make CMakeFiles/filterPointCloud.dir/src/filterPointCloud.cpp.i
+.PHONY : src/filterPointCloud.cpp.i
+
+src/filterPointCloud.s: src/filterPointCloud.cpp.s
+.PHONY : src/filterPointCloud.s
+
+# target to generate assembly for a file
+src/filterPointCloud.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filterPointCloud.dir/build.make CMakeFiles/filterPointCloud.dir/src/filterPointCloud.cpp.s
+.PHONY : src/filterPointCloud.cpp.s
+
 src/loadPointCloud.o: src/loadPointCloud.cpp.o
 .PHONY : src/loadPointCloud.o
 
@@ -209,6 +259,7 @@ src/writePCD.o: src/writePCD.cpp.o
 # target to build an object file
 src/writePCD.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/writePCD.dir/build.make CMakeFiles/writePCD.dir/src/writePCD.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/src/writePCD.cpp.o
 .PHONY : src/writePCD.cpp.o
 
 src/writePCD.i: src/writePCD.cpp.i
@@ -217,6 +268,7 @@ src/writePCD.i: src/writePCD.cpp.i
 # target to preprocess a source file
 src/writePCD.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/writePCD.dir/build.make CMakeFiles/writePCD.dir/src/writePCD.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/src/writePCD.cpp.i
 .PHONY : src/writePCD.cpp.i
 
 src/writePCD.s: src/writePCD.cpp.s
@@ -225,6 +277,7 @@ src/writePCD.s: src/writePCD.cpp.s
 # target to generate assembly for a file
 src/writePCD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/writePCD.dir/build.make CMakeFiles/writePCD.dir/src/writePCD.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter.dir/build.make CMakeFiles/filter.dir/src/writePCD.cpp.s
 .PHONY : src/writePCD.cpp.s
 
 # Help Target
@@ -235,9 +288,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... filter"
+	@echo "... filterPointCloud"
 	@echo "... loadPointCloud"
 	@echo "... passthrough"
 	@echo "... writePCD"
+	@echo "... src/filterPointCloud.o"
+	@echo "... src/filterPointCloud.i"
+	@echo "... src/filterPointCloud.s"
 	@echo "... src/loadPointCloud.o"
 	@echo "... src/loadPointCloud.i"
 	@echo "... src/loadPointCloud.s"

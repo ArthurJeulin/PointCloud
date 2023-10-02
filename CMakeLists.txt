@@ -19,3 +19,9 @@ target_link_libraries(loadPointCloud ${PCL_LIBRARIES})
 
 add_executable(writePCD src/writePCD.cpp)
 target_link_libraries(writePCD ${PCL_LIBRARIES})
+
+add_executable(filter src/writePCD.cpp)
+target_link_libraries(filter ${PCL_LIBRARIES})
+
+add_executable(filterPointCloud src/filterPointCloud.cpp)
+target_link_libraries(filterPointCloud ${PCL_LIBRARIES})
