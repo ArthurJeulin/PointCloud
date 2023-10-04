@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PointCloudLearning",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filter-Debug-04f97fbb0aed169bbd8a.json",
+					"name" : "filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filterPointCloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filterPointCloud-Debug-555ea212dc225add6c2b.json",
+					"name" : "filterPointCloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "loadPointCloud::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-loadPointCloud-Debug-75eb061b576d390fa414.json",
+					"name" : "loadPointCloud",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "passthrough::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-passthrough-Debug-fc078422cd1ceb159c8c.json",
+					"name" : "passthrough",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "writePCD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-writePCD-Debug-52c85497fe30b8ca9431.json",
+					"name" : "writePCD",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/ssd/dev/PointCloud/build",
+		"source" : "/ssd/dev/PointCloud"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
